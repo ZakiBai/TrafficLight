@@ -49,6 +49,9 @@
                                         <state key="normal" title="START">
                                             <color key="titleColor" systemColor="systemBackgroundColor"/>
                                         </state>
+                                        <connections>
+                                            <action selector="pressedStartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9TV-9O-yTF"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -69,6 +72,12 @@
                             <constraint firstItem="XxR-eS-Gxz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yha-dt-RqW"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="greenLabel" destination="scH-jh-EZF" id="Ssp-se-aRG"/>
+                        <outlet property="redLabel" destination="FnT-2E-RKl" id="12F-KF-N2a"/>
+                        <outlet property="startButton" destination="If1-si-uO7" id="Jd8-ov-0oT"/>
+                        <outlet property="yellowLabel" destination="03e-5e-t1Z" id="z0D-5N-m1L"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
